@@ -90,6 +90,6 @@ gallery.innerHTML = marcup;
 
 
 const lightbox = new Simplelightbox(".gallery a", {
-    captionData: "alt",
+    captionsData: "alt",
     captionDelay: 250,
 });
